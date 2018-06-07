@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<div>
+	<label for="firstName">First Name:</label>
+	<input type="text" id="firstName" name="firstName" required>
+	<label for="lastName">Last Name:</label>
+	<input type="text" name="lastName" required id="lastName">
+</div>
+<div>
+	<label for="sex">Male</label><input type="radio" name="sex" id="male required="">
+	<label for="sex">Female</label><input type="radio" name="sex" id="female" required="">
+</div>
+<div>
+	<label for="Email">Email:</label><input type="email" required="">
+	<label for="Password">Password:</label><input type="password" id="Password" required inputmode="numeric" minlength="5" maxlength="10"><!-- //title will display what you want on error. -->
+
+</div>
+<div>
+	<label name="Birthday">Birthday:</label>
+	<select name="Month">
+		<option>Month</option>
+		<option>Jan</option>
+		<option>Feb</option>
+		<option>March</option>
+		<option>April</option>
+		<option>May</option>
+	</select>
+
+	<select name="day">
+		<option>Day</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+	</select>
+	<select name="Year">
+		<option>Year</option>
+		<option>1977</option>
+		<option>1978</option>
+		<option>1979</option>
+		<option>1980</option>
+		<option>1981</option>
+	</select>
+</div>
+<div>
+	<label for="tos">I agree to the Terms & Conditions</label>
+	<input type="checkbox" id="tos" required>
+</div>
+
+<button>Submit</button>
+
+</form>
+
+
+
+
+
+</body>
+</html>
